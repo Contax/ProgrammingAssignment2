@@ -50,12 +50,26 @@ cacheSolve <- function(x, ...) {
 }
 
 
-##Test run
+## Test run
 # x = matrix(3:6, 2,2)
 # m = makeCacheMatrix(x)
+
 # m$get()
+#     [,1] [,2]
+#[1,]    3    5
+#[2,]    4    6
+
 # cacheSolve(m) 
+#     [,1] [,2]
+#[1,]   -3  2.5
+#[2,]    2 -1.5
+# no cache ,compute
+
 # cacheSolve(m)
+#getting cached data
+#     [,1] [,2]
+#[1,]   -3  2.5
+#[2,]    2 -1.5
 
         
 
